@@ -1,0 +1,235 @@
+body {
+    background-color: aquamarine;
+}
+
+.all_container {
+    margin: 10px 10% ;
+}
+.top_bar {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    background-color: burlywood;
+    height: 100px;
+}
+#storename {
+    margin-left: 10px;
+    float: left;
+    background-color: burlywood;
+}
+#help {
+    float: right;
+    background-color: burlywood;
+    margin-right: 10px;
+  
+
+}
+
+.bodycontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.back_image {
+
+}
+.back_image img {
+    float:left;
+    
+}
+
+.loginform {
+    position: absolute;
+    left:35%;
+    top:25%;
+    background-color: burlywood;
+    width: auto;
+    height: auto; 
+    border-radius: 5px;
+    opacity:0.9;
+}
+.loginform form {
+    margin:30px;
+    
+}
+.loginform form input {
+    height: 20px;
+    margin:10px;
+    border-radius: 5px;
+}
+.loginform form button {
+    height: 40px;
+    width: 100px;
+    
+    border-radius: 5px;}
+
+.description {
+    float: right;
+    
+
+}
+.bottomfooter {
+    margin-top:40px;
+    
+    float: left;
+    text-align: center;
+    
+    background-color: burlywood;
+    padding: 10px;
+    margin-right: 15%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+
+/* for the responsiveness*/
+
+
+@media screen and (max-width:480px){
+    body{
+        max-height:634px;
+        background: #ffffff;
+        width:90%;
+        margin:0px 0px 0px 0px;
+        padding: 0px;
+    
+    }
+
+    .back_image {
+         margin-right: 10%;
+         
+
+    }
+
+        
+    .back_image img {
+        float:left;
+        max-width:380px;
+        
+
+
+    
+    }
+    .top_bar {
+        background-color: white;
+        margin-bottom: 10px;
+        
+        
+    }
+    #storename {
+        margin-left: 10px;
+        float: left;
+        background-color: white;
+        width:100%;
+        text-align: center;
+    }
+        
+        #help {
+            display: none;
+        }
+        
+    .loginform {
+        position: absolute;
+        left:20%;
+        top:20%;
+        background-color: burlywood;
+        width: auto;
+        height: auto; 
+        border-radius: 5px;
+        opacity:0.9;
+    }
+
+    .loginform form {
+        margin:10px;
+        
+    }
+        
+}
+
+@media screen and (min-width:481px) and (max-width:786px){
+
+    body{
+        max-height:684px;
+        background: #ffffff;
+        width:60%;
+        margin:0px 0px 0px 0px;
+        padding: 0px;
+    
+    }
+    .top_bar {
+        
+        margin-bottom: 20px;
+        background-color:white;
+        
+       
+    }
+    #storename {
+        
+        margin-left: 10%;
+        background-color:white;
+        width: 100%;
+    }
+    #help {
+        float: left;
+        background-color:white;
+        margin-left: 10%;
+       
+      
+    
+    }
+    .back_image img {
+        float:left;
+        max-width:400px 
+    }
+    
+    .loginform {
+        position: absolute;
+        left:20%;
+        top:25%;
+        background-color: burlywood;
+        width: auto;
+        height: auto; 
+        border-radius: 5px;
+        opacity:0.9;
+    }
+        
+    .loginform form {
+        margin:15px;
+    }
+
+
+}
+@media screen and (min-width:787px) and (max-width:1024px) {
+
+    body{
+        max-height:639px;
+        background: aquamarine;
+        width:80%;
+        margin:80px 0px 0px 0px;
+        padding: 0px;
+    
+    }
+    
+.description {
+    width:100%;
+    
+
+}
+
+.loginform {
+    position: absolute;
+    left:20%;
+    top:35%;
+    background-color: burlywood;
+    width: auto;
+    height: auto; 
+    border-radius: 5px;
+    opacity:0.9;
+}
+    
+.loginform form {
+    margin:35px;
+}
+}
+
+
