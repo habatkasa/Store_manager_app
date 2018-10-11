@@ -60,12 +60,11 @@ body {
     margin:10px;
     border-radius: 5px;
 }
-.loginform form button {
-    height: 40px;
+#log {
+    height: 30px;
     width: 100px;
     
     border-radius: 5px;}
-
 .description {
     float: right;
     
