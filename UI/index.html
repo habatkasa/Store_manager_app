@@ -6,7 +6,7 @@
     <title>Store Manager</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="static/main.css" />
-    <script src="main.js"></script>
+    <script src="static/main.js" ></script>
 </head>
 <body>
 
@@ -24,14 +24,15 @@
             <div class="back_image">
                 <img src="static/images/backimage.jpg">
                 <div class="loginform">
-                    <form >
+                    <form name = "myform" action="" method="GET">
                             
                         User name:<br>
-                        <input type="text" name="firstname">
+                        <input type="text" name="username" value="">
                         <br>
                         Password:<br>
-                        <input type="password" name="lastname"><br>
-                        <button id="log">Login</button>
+                        <input type="password" name="password"><br>
+                        <input  id="log"  type="button" name = "button" value="click" onclick="testchoice(this.form)">
+                        <!--<button id="log"> Login</button>-->
                     </form>
                 </div>
             

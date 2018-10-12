@@ -1,0 +1,82 @@
+.all_content {
+    margin: 0px 10% 0px 10%;
+
+}
+
+.main_nav {
+    background-color: burlywood;
+    display: inline-block;
+    width: 100%;
+   
+}
+.main_nav h1 {
+    float: left;
+    margin-left:20px;
+    
+}
+.main_nav ul {
+    float: right;
+    margin-right: 20px;
+}
+.main_nav ul li h4{
+    color:green;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.mostcontents {
+    background-color: grey;
+    margin-top: 30px;
+    height: 600px;
+    padding: 20px;
+    
+
+}
+
+.admin_menu{
+    background-color: burlywood;
+    width:20%;
+    float: left;
+    margin-right: 10%;
+    
+}
+
+.admin_menu ul{
+    width:80%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+.admin_menu ul li {
+    list-style: none;
+    padding:20px;
+    width:auto;
+}
+.admin_menu ul li a {
+   color:black;
+   font-weight: bold;
+}
+.admin_menu ul li:hover {
+    background-color: whitesmoke;
+    color:burlywood;
+}
+.menue_item {
+    text-decoration: none;
+}
+
+.admin_display {
+    
+    width: 70%;
+    
+    background-color:burlywood;
+    float: right;
+    } 
+.admin_display nav a {
+    padding: 10px;
+
+}
+.admin_display nav {
+    line-height: 40px;
+}
