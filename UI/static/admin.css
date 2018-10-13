@@ -1,7 +1,9 @@
+body {
+    background-color: grey;
+}
 .all_content {
     margin: 0px 10% 0px 10%;
-
-}
+    }
 
 .main_nav {
     background-color: burlywood;
@@ -26,10 +28,11 @@
 }
 
 .mostcontents {
-    background-color: grey;
+    
     margin-top: 30px;
-    height: 600px;
-    padding: 20px;
+    
+    padding: 5px;
+    width: 100%;
     
 
 }
@@ -38,7 +41,8 @@
     background-color: burlywood;
     width:20%;
     float: left;
-    margin-right: 10%;
+    margin-right: 5%;
+    
     
 }
 
@@ -68,10 +72,12 @@
 
 .admin_display {
     
-    width: 70%;
+    width: 75%;
     
     background-color:burlywood;
     float: right;
+    margin-bottom: 20px;
+    
     } 
 .admin_display nav a {
     padding: 10px;
@@ -79,4 +85,42 @@
 }
 .admin_display nav {
     line-height: 40px;
+}
+
+.display_title {
+    text-align:center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.table_display {
+    width:100%;
+    background-color: green;
+    border-collapse: collapse;
+    text-align:center;
+    line-height: 50px;
+   
+}
+.each_row {
+    background-color:palegreen;
+    text-align:center;
+}
+.every_row {
+    background-color: whitesmoke;
+    
+}
+.next_row {
+    background-color:burlywood;
+}
+
+.edit_products {
+    width:60%;
+    float: right;
+    
+}
+.edit_products input {
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    background-color: palegreen;
+    color: black;
 }
