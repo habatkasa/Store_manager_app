@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan|Lora|Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/admin.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="static/adduseraccount.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="all_content">
+        <div class="main_nav">
+            <h1>Store Manager</h1>
+            <ul>
+                <li><h4>logged in as Administrator</h4></li>
+               <a href="index.html"><li>LogOut</li></a>
+            </ul>
+        </div>
+
+
+        <div class="mostcontents">
+            <div class="admin_menu">
+                <ul>
+                    <li><a href="admin.html" class="menue_item">Home</a></li>
+                    <li><a href="adduseraccount.html" class="menue_item">New Account</a></li>
+                    <li><a href="NewUserAccount.html" class="menue_item">Back</a></li>
+                    
+                </ul>
+            </div>
+            <div class="admin_display">
+                <div class="display_title">
+                    <h1>Create a new User Account</h1>
+                </div>
+                <div class="attendant_container">
+                    <form action="" class="attendant_data" method="GET">
+                        Username:<br>
+                        <input type="text" name="Username" value=""><br>
+                        Password:<br>
+                        <input type="password" name="password" value=""><br>
+                        Confirm Password:<br>
+                        <input type="password" name="password" value=""><br>
+                        <input type="button" name="button" value="Create Account">
+
+                    </form>
+                </div>
+            </div>
+    </div>
+    
+</body>
+</html>

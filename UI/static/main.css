@@ -1,5 +1,9 @@
 body {
     background-color:palegreen;
+    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Nanum Gothic', sans-serif;
+font-size: 0.9em;
 }
 
 .all_container {
