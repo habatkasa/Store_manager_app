@@ -1,0 +1,14 @@
+.attendant_container{
+    background-color: palegreen;
+}
+.attendant_data {
+    text-align: center;
+    padding: 10px;
+    
+}
+.attendant_data input{
+    border-radius: 10px;
+    height: 30px;
+    width:20%;
+    margin: 10px;
+}
